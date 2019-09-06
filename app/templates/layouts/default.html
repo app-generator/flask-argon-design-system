@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% include 'includes/header.html' %}
+
+</head>
+
+<body>
+
+  <header class="header-global">
+
+    {% include 'includes/navigation.html' %}
+
+  </header>
+
+  <main class="{{ main_class }}">
+
+    {{ content | safe }}
+
+  </main>
+
+  {% include 'includes/footer.html'  %}
+  {% include 'includes/scripts.html' %}
+
+</body>
+
+</html>
