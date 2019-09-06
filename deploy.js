@@ -9,9 +9,9 @@ var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
  
 var config = {
-    user:     "flask-paper-kit@flask-paper-kit.appseed.us", 
-    password: "HnbFvddccEE993NbG9986bbgFDc",                            
-    host:     "ftp.appseed.us",
+    user:     "FTP_USER",
+    password: "FTP_PASS",
+    host:     "FTP_HOST",
     port: 21,
     localRoot: __dirname + '/app/build',
     remoteRoot: '/',
