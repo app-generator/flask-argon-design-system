@@ -1,6 +1,6 @@
 # [Flask Argon Design](https://flask-argon-design-system.appseed.us/)
 
-Open-Source [Flask](https://palletsprojects.com/p/flask/) app enhanced with [SQLite](https://www.sqlite.org/index.html) database, authentication, [SQLAlchemy ORM](https://www.sqlalchemy.org/) and a beautiful UI - [Argon Design Design](https://www.creative-tim.com/product/paper-kit) by Creative-Tim.
+Open-Source [Flask](https://palletsprojects.com/p/flask/) app enhanced with [SQLite](https://www.sqlite.org/index.html) database, authentication, [SQLAlchemy ORM](https://www.sqlalchemy.org/) and a beautiful UI - **Argon Design Design** by Creative-Tim.
 
 <br />
 
@@ -46,8 +46,7 @@ $ # App is running on http://localhost:5000
 
 ## Links & Resources
 
-- [Flask Argon Design](https://github.com/app-generator/flask-argon-design-system) - live demo
-- [Argon Design Design](https://www.creative-tim.com/product/paper-kit) - the design provided by Creative-Tim 
+- [Flask Argon Design](https://flask-argon-design-system.appseed.us/) - live demo
 - [Flask](https://palletsprojects.com/p/flask/) - offcial website
 - A curated list with production-ready [Flask Apps](https://appseed.us/apps/flask-apps)
 
