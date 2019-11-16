@@ -1,6 +1,6 @@
-# [Flask Argon Design](https://github.com/app-generator/flask-argon-design-system)
+# [Flask Argon Design](https://flask-argon-design-system.appseed.us)
 
-**[Open-Source Web App](https://github.com/app-generator/flask-argon-design-system)** coded in **Flask Web Framework** on top of **Argon Design** design, crafted by Creative-Tim agency. Features:
+**[Open-Source Web App](https://flask-argon-design-system.appseed.us)** coded in **Flask Web Framework** on top of **Argon Design** design, crafted by Creative-Tim agency. Features:
 
 - SQLite
 - SQLAlchemy ORM
@@ -48,7 +48,7 @@ $ source env/bin/activate
 $
 $ # Install modules using a virtualenv (Windows based systems)
 $ # virtualenv --no-site-packages env
-$ # \env\Scripts\activate.bat
+$ # .\env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
 $ pip3 install -r requirements.txt
@@ -112,6 +112,7 @@ The boilerplate code is built with a modular structure that follows the recommen
 
 ## Resources
 
-- [Flask Argon Design](https://github.com/app-generator/flask-argon-design-system) - Source code
+- [Flask Argon Design](https://flask-argon-design-system.appseed.us) - Live DEMO
+- [Flask Argon Design](https://docs.appseed.us/apps/flask-apps/flask-argon-design-system/) - Product documentation
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
 - [Flask - Open-Source Boilerplates](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - A popular article published on Dev.to platform

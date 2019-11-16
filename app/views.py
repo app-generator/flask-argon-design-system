@@ -1,8 +1,6 @@
 # -*- encoding: utf-8 -*-
 """
-Fully Coded App by AppSeed.us
 License: MIT
-For more apps please access https://appseed.us/
 Copyright (c) 2019 - present AppSeed.us
 """
 
@@ -46,10 +44,6 @@ def register():
 
     msg = None
 
-    # custommize your pate title / description here
-    page_title       = 'Register - PhantomFlask coded in Flask | AppSeed App Generator'
-    page_description = 'HTML5 Up Phantom design coded in Flask Microframework, registration page.'
-
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
 
@@ -79,8 +73,6 @@ def register():
 
     # try to match the pages defined in -> themes/phantom/pages/
     return render_template( 'layouts/default.html',
-                            title=page_title,
-                            description=page_description,
                             content=render_template( 'pages/register.html', form=form, msg=msg) )
 
 # authenticate user
@@ -94,10 +86,6 @@ def login():
 
     # Flask message injected into the page, in case of any errors
     msg = None
-
-    # custommize your page title / description here
-    page_title       = 'Login - PhantomFlask coded in Flask | AppSeed App Generator'
-    page_description = 'HTML5 Up Phantom design coded in Flask Microframework, login page.'
 
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
@@ -121,8 +109,6 @@ def login():
 
     # try to match the pages defined in -> pages/
     return render_template( 'layouts/default.html',
-                            title=page_title,
-                            description=page_description,
                             page="login",
                             content=render_template( 'pages/login.html', 
                                                      form=form,
@@ -233,5 +219,3 @@ def e403(e):
 @app.errorhandler(410)
 def e410(e):
     return http_err( 410) # "The content you were looking for has been deleted."
-
-	
