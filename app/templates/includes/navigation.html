@@ -1,0 +1,82 @@
+
+  <header class="header-global">
+      <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+        <div class="container">
+          <a class="navbar-brand mr-lg-5" href="/">
+            <img src="/static/assets/img/brand/white.png" alt="brand">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar_global">
+            <div class="navbar-collapse-header">
+              <div class="row">
+                <div class="col-6 collapse-brand">
+                  <a href="/">
+                    <img src="/static/assets/img/brand/blue.png" alt="brand">
+                  </a>
+                </div>
+                <div class="col-6 collapse-close">
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {% if current_user.is_authenticated %}
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                  <i class="ni ni-collection d-lg-none"></i>
+                  <span class="nav-link-inner--text">Examples</span>
+                </a>
+                <div class="dropdown-menu">
+                  <a href="/" class="dropdown-item">Landing</a>
+                  <a href="/profile.html" class="dropdown-item">Profile</a>
+                  <a href="/register.html" class="dropdown-item">Register</a>
+                  <a href="/components.html" class="dropdown-item">Components</a>
+                </div>
+              </li>
+            </ul>
+            {% endif %}
+            
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+
+              {% if current_user.is_authenticated %}
+
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href={{ url_for('logout') }} data-toggle="tooltip" 
+                     title="End Session for [{{ current_user.user }}]">
+                    <i class="fa fa-sign-out"></i> Logout
+                    <span class="nav-link-inner--text d-lg-none">Logout</span>
+                  </a>
+                </li>
+
+              {% else %}
+
+                <li class="nav-item">
+                  <a class="nav-link nav-link-icon" href={{ url_for('login') }} data-toggle="tooltip" 
+                     title="Authenticate">
+                    <i class="fa fa-sign-in"></i> Login
+                    <span class="nav-link-inner--text d-lg-none">Login</span>
+                  </a>
+                </li>
+ 
+              {% endif %}
+
+              <li class="nav-item d-none d-lg-block ml-lg-4">
+                <a href="https://appseed.us/apps/flask-apps/flask-argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
+                  <span class="btn-inner--icon">
+                    <i class="fa fa-cloud-download mr-2"></i>
+                  </span>
+                  <span class="nav-link-inner--text">Product</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  

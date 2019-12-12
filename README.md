@@ -1,118 +1,87 @@
-# [Flask Argon Design](https://flask-argon-design-system.appseed.us)
+# [Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system)
 
-**[Open-Source Web App](https://flask-argon-design-system.appseed.us)** coded in **Flask Web Framework** on top of **Argon Design** design, crafted by Creative-Tim agency. Features:
+**[Open-Source Web App](https://appseed.us/apps/flask-apps/flask-argon-design-system)** coded in **Flask Framework** on top of **Argon Design** design. **Features**:
 
-- SQLite
+<br />
+
+- SQLite database
 - SQLAlchemy ORM
-- Session-Based authentication (via **flask_login**)
-- Forms validation
-- **License MIT**
+- Session-Based authentication flow (login, register)
+- UI Kit: [Argon Design](https://github.com/app-generator/fork-argon-design-system-html) by **Creative-Tim**
 
 <br />
 
-![Flask Argon Design - Open-Source Web App coded in Flask.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-argon-design-system-intro.gif)
+![Flask Argon Design - Open-Source Web App.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-argon-design-system-intro.gif)
 
 <br />
 
-## Setup the environment
-
-In order to use the boilerplate, we need [Python3](/what-is/python/) and `virtualenv` python library.
-
-<br />
-
-> *Note*: **Python2 is not supported**, the EOL of this version announced [here](https://www.python.org/doc/sunset-python-2/). In order to use our kits, please migrate to Pyhton3. Thank you!
-
-<br />
+## Build from sources
 
 ```bash
-$ # Test the Python install
-$ python --version
-$ Python 3.7.2
-$
-$ # install Virtualenv using PIP
-$ pip3 install virtualenv
-```
-
-<br />
-
-## Build from [sources](https://github.com/app-generator/flask-argon-design-system)
-
-```bash
-$ # 1. Get the code
+$ # Clone the sources
 $ git clone https://github.com/app-generator/flask-argon-design-system.git
 $ cd flask-argon-design-system
 $
-$ # Install modules using a virtualenv (Unix based systems)
+$ # Virtualenv modules installation (Unix based systems)
 $ virtualenv --no-site-packages env
 $ source env/bin/activate
 $
-$ # Install modules using a virtualenv (Windows based systems)
+$ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
-$ # .\env\Scripts\activate.bat
+$ # .\env\Scripts\activate
 $ 
-$ # 2. Install requirements
+$ # Install requirements
 $ pip3 install -r requirements.txt
 $
-$ # 3. Set the FLASK_APP environment variable
+$ # Set the FLASK_APP environment variable
 $ (Unix/Mac) export FLASK_APP=run.py
 $ (Windows) set FLASK_APP=run.py
 $ (Powershell) $env:FLASK_APP = ".\run.py"
 $
-$ # Create SQLite database using the Flask console
-$ flask shell
->> from app import db
->> db.create_all()
->> quit()
-$ # SQLite database.db should be created in the app folder:
-$ # app\database.db
+$ # Set up the DEBUG environment
+$ # (Unix/Mac) export FLASK_ENV=development
+$ # (Windows) set FLASK_ENV=development
+$ # (Powershell) $env:FLASK_ENV = "development"
 $
-$ # 4. Run the application
-$ flask run --host=0.0.0.0
+$ # Run the application
+$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
+$ # --port=5000    - specify the app port (default 5000)  
+$ flask run --host=0.0.0.0 --port=5000
 $
-$ # 5. Go to http://127.0.0.1:5000/, create an account and log in
+$ # Access the app in browser: http://127.0.0.1:5000/
 ```
 
 <br />
 
-## Project Structure
-
-The boilerplate code is built with a modular structure that follows the recommended pattern used by many open-source projects. The most important files / directories are listed bellow:
-
-- [run.py](https://github.com/app-generator/flask-argon-design-system/blob/master/run.py)
-- [app /](https://github.com/app-generator/flask-argon-design-system/tree/master/app)
-- [app / __init__.py](https://github.com/app-generator/flask-argon-design-system/blob/master/app/__init__.py)
-- [app / views.py](https://github.com/app-generator/flask-argon-design-system/tree/master/app/views.py)
-- [app / models.py](https://github.com/app-generator/flask-argon-design-system/tree/master/app/models.py)
+## Want more? Go PRO!
 
 <br />
 
-```bash
-< ROOT > - Flask Argon Design        # application root folder
-    |
-    |--- app/__init__.py          # application constructor  
-    |--- app/views.py             # implement app routing
-    |--- app/models.py            # define app models
-    |--- app/forms.py             # forms used for login and registration
-    |
-    |--- requirements.txt         # App Requirements
-    |
-    |--- run.py                   # bootstrap the app
-    |
-    |-----------------------------
-```
+| [Flask Dashboard Material](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black-pro) |
+| --- | --- | --- |
+| [![Flask Dashboard Material PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-material-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro)  | [![Flask Dashboard Argon PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [![Flask Dashboard Black PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-black-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-black-pro)
 
 <br />
 
 ## Support
 
-- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and [Github](https://github.com/app-generator/flask-argon-design-system/issues/)
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
 - 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
 
 <br />
 
-## Resources
+## Credits & Links
 
-- [Flask Argon Design](https://flask-argon-design-system.appseed.us) - Live DEMO
-- [Flask Argon Design](https://docs.appseed.us/apps/flask-apps/flask-argon-design-system/) - Product documentation
-- [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
-- [Flask - Open-Source Boilerplates](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - A popular article published on Dev.to platform
+- [Flask Argon Design](https://appseed.us/admin-dashboards/flask-argon-design-system) - Product page
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
+- [Flask Boilerplate - Open-Source Apps built with automation tools](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - a popular article published on **Dev.to** platform
+<br />
+
+## License
+
+@MIT
+
+<br />
+
+---
+[Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) provided by **AppSeed**
