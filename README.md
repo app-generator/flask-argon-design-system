@@ -1,6 +1,6 @@
 # [Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system)
 
-**[Open-Source Web App](https://appseed.us/apps/flask-apps/flask-argon-design-system)** coded in **Flask Framework** on top of **Argon Design** design. **Features**:
+**[Open-Source Web App](https://appseed.us/apps/flask-apps/flask-argon-design-system)** coded in **Flask Framework** on top of **Argon Design System**. **Features**:
 
 <br />
 
