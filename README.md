@@ -11,7 +11,7 @@
 
 <br />
 
-![Flask Argon Design - Open-Source Web App.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-argon-design-system-intro.gif)
+![Flask Argon Design - Open-Source Web App.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-argon-design-system-screen.png)
 
 <br />
 
