@@ -73,7 +73,7 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 ## Credits & Links
 
-- [Flask Argon Design](https://appseed.us/admin-dashboards/flask-argon-design-system) - Product page
+- More Web Apps built with [Argon Design](https://appseed.us/ui-kit/argon-design-system) - provided by **AppSeed**
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
 - [Flask Boilerplate - Open-Source Apps built with automation tools](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - a popular article published on **Dev.to** platform
 <br />
