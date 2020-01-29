@@ -1,8 +1,8 @@
 # [Flask Argon Design](https://www.youtube.com/watch?v=UrdkjN5dask)
 
-Open-Source Web App coded in **Flask Framework** on top of **Argon Design System**. **Features**:
+**Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-<br />
+### App Features:
 
 - SQLite database
 - SQLAlchemy ORM
@@ -85,4 +85,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Argon Design](https://www.youtube.com/watch?v=UrdkjN5dask) provided by **AppSeed**
+[Flask Argon Design](https://www.youtube.com/watch?v=UrdkjN5dask) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
