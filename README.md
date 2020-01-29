@@ -1,4 +1,4 @@
-# [Flask Argon Design](https://www.youtube.com/watch?v=UrdkjN5dask)
+# Flask [Argon Design](https://appseed.us/ui-kit/argon-design-system)
 
 **Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
@@ -85,4 +85,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Argon Design](https://www.youtube.com/watch?v=UrdkjN5dask) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+Flask [Argon Design](https://appseed.us/ui-kit/argon-design-system) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
