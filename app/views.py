@@ -39,7 +39,7 @@ def register():
 
     if request.method == 'GET': 
 
-        return render_template( 'pages/register.html', form=form, msg=msg )
+        return render_template( 'accounts/register.html', form=form, msg=msg )
 
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
@@ -71,7 +71,7 @@ def register():
     else:
         msg = 'Input error'     
 
-    return render_template( 'pages/register.html', form=form, msg=msg )
+    return render_template( 'accounts/register.html', form=form, msg=msg )
 
 # Authenticate user
 @app.route('/login.html', methods=['GET', 'POST'])
@@ -104,7 +104,7 @@ def login():
         else:
             msg = "Unknown user"
 
-    return render_template( 'pages/login.html', form=form, msg=msg )
+    return render_template( 'accounts/login.html', form=form, msg=msg )
 
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})
