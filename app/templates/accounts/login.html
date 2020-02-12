@@ -47,7 +47,9 @@
                     {% if msg %}
                       <span class="text-danger">{{ msg | safe }}</span>
                     {% else %}
-                      Add your credentials
+                      Use default credentials: <strong>test / pass</strong>
+                      <br />
+                      OR <a href={{ url_for('register') }} >create your own user</a>   
                     {% endif %} 
 
                   </small>
