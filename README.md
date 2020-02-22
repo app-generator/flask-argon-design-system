@@ -1,13 +1,24 @@
 # [Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system)
 
-**Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+**Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Argon Design System** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-### App Features:
+## App Features:
 
-- SQLite database
+- UI-Ready, SQLite database
 - SQLAlchemy ORM
 - Session-Based authentication flow (login, register)
-- UI Kit: [Argon Design](https://github.com/app-generator/fork-argon-design-system-html) by **Creative-Tim**
+- Forms validation
+- UI Kit: **[Argon Design System](https://flask-argon-design-system.appseed.us/login.html)** (Free version) provided by **Creative-Tim**
+- **MIT License**
+- Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
+
+<br />
+
+## App Links
+
+- [Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) - Product page
+- [Flask Argon Design](https://docs.appseed.us/apps/flask-apps/flask-argon-design-system/) - Documentation
+- [Flask Argon Design](https://flask-argon-design-system.appseed.us/login.html) - LIVE demo
 
 <br />
 
@@ -64,25 +75,27 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 <br />
 
-## Support
-
-- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
-- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
-
-<br />
-
 ## Credits & Links
 
-- More Web Apps built with [Argon Design](https://appseed.us/ui-kit/argon-design-system) - provided by **AppSeed**
-- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
-- [Flask Boilerplate - Open-Source Apps built with automation tools](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - a popular article published on **Dev.to** platform
 <br />
 
-## License
+### [Flask Framework](https://www.palletsprojects.com/p/flask/)
 
-@MIT
+[Flask](/what-is/flask) is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+<br />
+
+## [What is dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))
+
+In information technology, a **[dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))** is a user interface that, somewhat resembling an automobile's dashboard, organizes and presents information in a way that is easy to read. However, a computer dashboard is more likely to be interactive than an automobile dashboard (unless it is also computer-based). To some extent, most graphical user interfaces (GUIs) resemble a dashboard - by [Techtarget](https://searchcio.techtarget.com/definition/dashboard)
+
+<br />
+
+### [Argon Design System](https://www.creative-tim.com/product/argon-design-system)
+
+Free and open-source design system for Bootstrap4 - Argon Design System is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files. Start your development with a Design System for Bootstrap 4. It is open-source, free and it features many components that can help you create amazing websites - provided by **Creative-Tim**.
 
 <br />
 
 ---
-[Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) - Provided by AppSeed [Web App Generator](https://appseed.us/app-generator).
