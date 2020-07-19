@@ -1,4 +1,4 @@
-# [Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system)
+# [Flask App - Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system)
 
 **Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Argon Design System** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
@@ -85,12 +85,6 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 <br />
 
-## [What is dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))
-
-In information technology, a **[dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))** is a user interface that, somewhat resembling an automobile's dashboard, organizes and presents information in a way that is easy to read. However, a computer dashboard is more likely to be interactive than an automobile dashboard (unless it is also computer-based). To some extent, most graphical user interfaces (GUIs) resemble a dashboard - by [Techtarget](https://searchcio.techtarget.com/definition/dashboard)
-
-<br />
-
 ### [Argon Design System](https://www.creative-tim.com/product/argon-design-system)
 
 Free and open-source design system for Bootstrap4 - Argon Design System is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files. Start your development with a Design System for Bootstrap 4. It is open-source, free and it features many components that can help you create amazing websites - provided by **Creative-Tim**.
@@ -98,4 +92,4 @@ Free and open-source design system for Bootstrap4 - Argon Design System is built
 <br />
 
 ---
-[Flask Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) - Provided by AppSeed [Web App Generator](https://appseed.us/app-generator).
+[Flask App - Argon Design](https://appseed.us/apps/flask-apps/flask-argon-design-system) - Provided by AppSeed [Web App Generator](https://appseed.us/app-generator).
